@@ -16,9 +16,9 @@ class MonnifyService
     {
         $this->client = new Client();
         $this->baseUrl = env('https://sandbox.monnify.com');
-        $this->apiKey = env('MK_TEST_WR66CY5EUY');
-        $this->secretKey = env('31A4JJDHG99EE6JPB1AX4N7AG2U29GVB');
-        $this->contractCode = env('6761245091');
+        $this->apiKey = env('YOUR_API_KEY');
+        $this->secretKey = env('YOUR_SECRETE_KEY');
+        $this->contractCode = env('YOUR_contractCode');
     }
 
     // private function authenticate()

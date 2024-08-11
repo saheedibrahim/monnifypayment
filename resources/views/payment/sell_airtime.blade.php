@@ -1,4 +1,3 @@
-<?php
 
 <form action="{{ route('sell.airtime') }}" method="POST">
     @csrf
